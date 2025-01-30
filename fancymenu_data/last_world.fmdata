@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = true
+  world = br.redhosting.com.br:25595
+}
+
