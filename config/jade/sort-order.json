@@ -14,6 +14,12 @@
   "apotheosis:ench": null,
   "apotheosis:spawner": null,
   "ars_nouveau:mob_jar": null,
+  "camera:image_frame": null,
+  "cookingforblockheads:fridge": null,
+  "cookingforblockheads:milk_jar": null,
+  "cookingforblockheads:oven": null,
+  "cookingforblockheads:sink": null,
+  "cookingforblockheads:toaster": null,
   "endertanks:hud": null,
   "expatternprovider:jade_chamber": null,
   "expatternprovider:jade_wireless": null,
@@ -91,5 +97,9 @@
   "reliquary:mortar": null,
   "reliquary:pedestal": null,
   "shetiphiancore:hud": null,
+  "storagedrawers:main": null,
+  "supplementaries:hat_stand": null,
+  "supplementaries:present": null,
+  "supplementaries:safe": null,
   "waystones:waystone": null
 }
