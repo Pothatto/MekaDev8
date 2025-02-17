@@ -47,6 +47,10 @@ StartupEvents.registry('item', (registry)=> {
     registry.create('spatial_circuit_component_1').maxStackSize(64).glow(false)
     registry.create('spatial_circuit_component_2').maxStackSize(64).glow(false)
     registry.create('spatial_circuit').maxStackSize(64).glow(false)
+    registry.create('supreme_advanced_magic').maxStackSize(64).glow(false)
+    registry.create('supreme_advanced_engine').maxStackSize(64).glow(false)
+    registry.create('supreme_advanced_alchemy_of_machines').maxStackSize(64).glow(false)
+    registry.create('advanced_engine').maxStackSize(64).glow(false)
 })
 
 StartupEvents.registry('fluid', (fluid)=> { 
