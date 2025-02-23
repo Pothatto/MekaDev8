@@ -1,7 +1,7 @@
 type = last_world
 
 last_world {
-  is_server = true
-  world = br.redhosting.com.br:25595
+  is_server = false
+  world = D:/CurseForge/Instances/MekaDev8/saves/Novo mundo
 }
 
