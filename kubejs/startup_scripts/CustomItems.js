@@ -51,7 +51,6 @@ StartupEvents.registry('item', (registry)=> {
     registry.create('supreme_advanced_engine').maxStackSize(64).glow(false)
     registry.create('supreme_advanced_alchemy_of_machines').maxStackSize(64).glow(false)
     registry.create('advanced_engine').maxStackSize(64).glow(false)
-    registry.create('incomplete_started_mechanism').maxStackSize(64).glow(false)
     registry.create('imcomplete_quartz_lavender').maxStackSize(64).glow(false)
     registry.create('incomplete_etherium_ingot').maxStackSize(64).glow(false)
 })
