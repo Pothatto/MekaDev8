@@ -9,7 +9,7 @@
 		generation = 3000
 		# Number of items that can be smelted at once. The regular furnace only smelts 1 item at once of course.
 		# Default: 32
-		#Range: 1 ~ 1073741823
+		#Range: 1 ~ 64
 		mult = 32
 		# What tier this furnace should be.
 		# Default: 2
@@ -28,7 +28,7 @@
 		generation = 2000
 		# Number of items that can be smelted at once. The regular furnace only smelts 1 item at once of course.
 		# Default: 16
-		#Range: 1 ~ 1073741823
+		#Range: 1 ~ 64
 		mult = 16
 		# What tier this furnace should be.
 		# Default: 2
@@ -47,7 +47,7 @@
 		generation = 5000
 		# Number of items that can be smelted at once. The regular furnace only smelts 1 item at once of course.
 		# Default: 64
-		#Range: 1 ~ 1073741823
+		#Range: 1 ~ 64
 		mult = 64
 		# What tier this furnace should be.
 		# Default: 2

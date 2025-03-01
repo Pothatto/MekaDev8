@@ -10,16 +10,17 @@ JEIEvents.hideItems(event =>{
     event.hide(`connectedglass:clear_glass_${color}`); 
     event.hide(`connectedglass:scratched_glass_${color}`); 
     event.hide(`connectedglass:tinted_borderless_glass_${color}`); 
-    event.hide(`refinedstorage:${color}_network_transmitter`); 
-    event.hide(`refinedstorage:${color}_relay`); 
-    event.hide(`refinedstorage:${color}_detector`); 
-    event.hide(`refinedstorage:${color}_security_manager`); 
-    event.hide(`refinedstorage:${color}_disk_manipulator`); 
-    event.hide(`refinedstorage:${color}_crafter`); 
-    event.hide(`refinedstorage:${color}_crafter_manager`); 
-    event.hide(`refinedstorage:${color}_crafting_monitor`); 
-    event.hide(`refinedstorage:${color}_wireless_transmitter`);
+    event.hide(`enderio:clear_glass_e_${color}`); 
+    event.hide(`enderio:clear_glass_em_${color}`); 
+    event.hide(`enderio:clear_glass_enm_${color}`); 
+    event.hide(`enderio:fused_quartz_e_${color}`); 
+    event.hide(`enderio:clear_glass_enp_${color}`); 
+    event.hide(`enderio:clear_glass_ena_${color}`); 
+    event.hide(`enderio:fused_quartz_ena_${color}`); 
+    event.hide(`enderio:clear_glass_dp_${color}`); 
+    event.hide(`enderio:clear_glass_dnp_${color}`);
     event.hide(`enderio:${color}_clear_glass`); 
+    event.hide(`enderio:clear_glass_${color}`)
 });
     //Removing Flying Effect From JEI
    const flyingeffect = [
@@ -65,6 +66,9 @@ OperatorsI.forEach(OpI =>{
 event.hide('@buildinggadgets')
 //Hidding Rage Glove
 event.hide('relics:rage_glove')
+//Hidding EnderIO itens
+event.hide("enderio:filled_soul_vial")
+event.hide("enderio:broken_spawner")
 
 //Removing Incomplete mechanisms
 
@@ -91,6 +95,21 @@ const incomplete = [
    'kubejs:incomplete_activation_circuit_component_1',
    'kubejs:incomplete_activation_circuit_component_2',
    'kubejs:incomplete_activation_circuit',
+   'kubejs:incomplete_etherium_ingot',
+   'kubejs:imcomplete_quartz_lavender',
+   'kubejs:initiating_mechanism_component_1',
+   'kubejs:initiating_mechanism_component_2',
+   'kubejs:incomplete_initiating_mechanism',
+   'kubejs:incomplete_initiated_mechanism',
+   'kubejs:initiated_mechanism_component_2',
+   'kubejs:initiated_mechanism_component_1',
+   'kubejs:precision_mechanism_component_2',
+   'kubejs:incomplete_precision_mechanism',
+   'kubejs:precision_mechanism_component_1',
+   'kubejs:started_mechanism_component_4',
+   'kubejs:started_mechanism_component_3',
+   'kubejs:started_mechanism_component_2',
+   'kubejs:started_mechanism_component_1'
    ]
    incomplete.forEach(INCOMPLETE => { 
        event.hide(INCOMPLETE)
