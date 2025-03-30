@@ -53,6 +53,12 @@ StartupEvents.registry('item', (registry)=> {
     registry.create('advanced_engine').maxStackSize(64).glow(false)
     registry.create('imcomplete_quartz_lavender').maxStackSize(64).glow(false)
     registry.create('incomplete_etherium_ingot').maxStackSize(64).glow(false)
+    registry.create('compressed_star').maxStackSize(64).glow(false)
+    registry.create('dd3').maxStackSize(64).glow(false)
+    registry.create('dinheiro_meka').maxStackSize(64).glow(false)
+    registry.create('singularidade_meka').maxStackSize(16).glow(false)
+    registry.create('undying_charm').maxStackSize(16).glow(false)
+    registry.create('xychorium_gem_essence').maxStackSize(16).glow(false)
 })
 
 StartupEvents.registry('fluid', (fluid)=> { 

@@ -9,6 +9,3 @@ net.minecraft.client.gui.screens.inventory.InventoryScreen {
 net.minecraft.client.gui.screens.ConnectScreen {
 }
 
-net.minecraft.client.gui.screens.TitleScreen {
-}
-

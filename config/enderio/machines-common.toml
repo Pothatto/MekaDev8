@@ -151,10 +151,10 @@
 [poweredSpawner]
 	#The amount of mobs that spawn from the spawner
 	#Range: > 0
-	spawn_amount = 4
+	spawn_amount = 32
 	#The amount of entities that will turn off powered spawner if in range.
 	#Range: > 0
-	maxentities = 2
+	maxentities = 64
 	#The way a powered spawner spawns an entity. Possible options: 'ENTITYPE' Spawns the same entity types as the soul vial. 'COPY' Spawns an exact copy of the mob in the soul vial
 	#Allowed Values: ENTITYTYPE, COPY
 	"Spawn Type" = "ENTITYTYPE"

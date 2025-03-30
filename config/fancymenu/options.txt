@@ -1,7 +1,7 @@
 ##[general]
 
 I:default_gui_scale = '-1';
-B:play_vanilla_menu_music = 'true';
+B:play_vanilla_menu_music = 'false';
 B:force_fullscreen = 'false';
 
 
@@ -14,12 +14,12 @@ B:advanced_customization_mode = 'false';
 
 ##[loading]
 
-B:preload_animations = 'true';
+B:preload_animations = 'false';
 S:preload_resources = '';
 S:custom_game_intro_skip_text = '';
-B:allow_game_intro_skip = 'true';
+B:allow_game_intro_skip = 'false';
 S:game_intro_animation_name = '';
-B:game_intro_fade_out = 'true';
+B:game_intro_fade_out = 'false';
 
 
 ##[window]
@@ -33,12 +33,12 @@ S:custom_window_icon_16 = '/config/fancymenu/assets/mekas8/clienticon1616.png';
 
 ##[multiplayer_screen]
 
-B:show_multiplayer_screen_server_icons = 'true';
+B:show_multiplayer_screen_server_icons = 'false';
 
 
 ##[singleplayer_screen]
 
-B:show_singleplayer_screen_world_icons = 'true';
+B:show_singleplayer_screen_world_icons = 'false';
 
 
 ##[layout_editor]

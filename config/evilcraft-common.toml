@@ -169,7 +169,7 @@
 		#The minimum multiplier for amount of mB to receive per mob HP.
 		minimumMobMultiplier = 5.0
 		#The amount of blood (mB) this container can hold.
-		containerSize = 5000
+		containerSize = 500000
 		#The maximum multiplier for amount of mB to receive per mob HP. IMPORTANT: must be larger than minimumMobMultiplier!
 		maximumMobMultiplier = 40.0
 
@@ -247,7 +247,7 @@
 
 	[item.necromancer_staff]
 		#The capacity of the container.
-		capacity = 10000
+		capacity = 100000
 		#The amount of Blood that will be drained per usage.
 		usage = 2000
 
@@ -259,7 +259,7 @@
 		#The amount of seconds that will be reduced from the first found bad effect.
 		reduceDuration = 30
 		#The capacity of the pendant.
-		capacity = 5000
+		capacity = 50000
 
 	[item.flesh_rejuvenated]
 		#The amount of blood (mB) this container can hold.
@@ -273,7 +273,7 @@
 		#The amount of Blood to drain after one effect application.
 		usage = 10
 		#The capacity of the pendant.
-		capacity = 5000
+		capacity = 50000
 
 	[item.biome_extract]
 		#A list of biome names for which no Biome Extracts may be used.
