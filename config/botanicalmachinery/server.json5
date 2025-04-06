@@ -10,22 +10,22 @@
   "MaxManaCapacity": {
   
     // Minimum: 1
-    "alfheimMarket": 100000,
+    "alfheimMarket": 10000000,
     
     // Minimum: 500000
-    "industrialAgglomerationFactory": 1000000,
+    "industrialAgglomerationFactory": 10000000,
     
     // Minimum: 1
     "manaBattery": 10000000,
     
     // Minimum: 1
-    "mechanicalBrewery": 100000,
+    "mechanicalBrewery": 10000000,
     
     // Minimum: 1
-    "mechanicalManaPool": 100000,
+    "mechanicalManaPool": 10000000,
     
     // Minimum: 1
-    "mechanicalRunicAltar": 250000
+    "mechanicalRunicAltar": 2500000
   },
   
   // The default duration multiplied with this will be the used working duration.
