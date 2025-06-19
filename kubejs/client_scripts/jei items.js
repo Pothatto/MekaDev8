@@ -2,7 +2,6 @@ JEIEvents.hideItems(event =>{
    const colors = ['white', 'light_gray', 'gray', 'black', 'brown', 'red', 'orange', 'yellow', 'lime', 'green', 'cyan', 'light_blue', 'blue', 'purple', 'magenta', 'pink'];
    const bucketPattern = /gtceu:.*_bucket/;
    colors.forEach(color => {
-    //Removing Refined Storage Colored blocks From JEI
     event.hide(`connectedglass:borderless_glass_${color}`);
     event.hide(`connectedglass:borderless_glass_${color}_pane`);
     event.hide(`connectedglass:scratched_glass_${color}_pane`); 
@@ -21,6 +20,30 @@ JEIEvents.hideItems(event =>{
     event.hide(`enderio:clear_glass_dnp_${color}`);
     event.hide(`enderio:${color}_clear_glass`); 
     event.hide(`enderio:clear_glass_${color}`)
+    event.hide(`botanypots:${color}_terracotta_botany_pot`)
+    event.hide(`botanypotstiers:elite_${color}_terracotta_botany_pot`)
+    event.hide(`botanypotstiers:ultra_${color}_terracotta_botany_pot`)
+    event.hide(`botanypotstiers:creative_${color}_terracotta_botany_pot`)
+    event.hide(`botanypots:${color}_terracotta_hopper_botany_pot`)
+    event.hide(`botanypotstiers:elite_${color}_terracotta_hopper_botany_pot`)
+    event.hide(`botanypotstiers:ultra_${color}_terracotta_hopper_botany_pot`)
+    event.hide(`botanypotstiers:creative_${color}_terracotta_hopper_botany_pot`)
+    event.hide(`botanypots:${color}_glazed_terracotta_botany_pot`)
+    event.hide(`botanypotstiers:elite_${color}_glazed_terracotta_botany_pot`)
+    event.hide(`botanypotstiers:ultra_${color}_glazed_terracotta_botany_pot`)
+    event.hide(`botanypotstiers:creative_${color}_glazed_terracotta_botany_pot`)
+    event.hide(`botanypots:${color}_glazed_terracotta_hopper_botany_pot`)
+    event.hide(`botanypotstiers:elite_${color}_glazed_terracotta_hopper_botany_pot`)
+    event.hide(`botanypotstiers:ultra_${color}_glazed_terracotta_hopper_botany_pot`)
+    event.hide(`botanypotstiers:creative_${color}_glazed_terracotta_hopper_botany_pot`)
+    event.hide(`botanypots:${color}_concrete_botany_pot`)
+    event.hide(`botanypotstiers:elite_${color}_concrete_botany_pot`)
+    event.hide(`botanypotstiers:ultra_${color}_concrete_botany_pot`)
+    event.hide(`botanypotstiers:creative_${color}_concrete_botany_pot`)
+    event.hide(`botanypots:${color}_concrete_hopper_botany_pot`)
+    event.hide(`botanypotstiers:elite_${color}_concrete_hopper_botany_pot`)
+    event.hide(`botanypotstiers:ultra_${color}_concrete_hopper_botany_pot`)
+    event.hide(`botanypotstiers:creative_${color}_concrete_hopper_botany_pot`)
 });
     //Removing Flying Effect From JEI
    const flyingeffect = [
